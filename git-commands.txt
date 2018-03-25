@@ -19,3 +19,7 @@ https://help.github.com/articles/adding-a-new-ssh-key-to-your-github-account/
 
 # Create A Repo
 https://help.github.com/articles/create-a-repo/
+
+git add .
+git commit -m ""
+git push origin master
