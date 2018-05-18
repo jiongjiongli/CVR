@@ -2,7 +2,7 @@ References:
 https://help.github.com/
 https://git-scm.com/book/en/v2/Git-Basics-Getting-a-Git-Repository
 
-# Set Up Git
+# Set up Git
 https://help.github.com/articles/set-up-git/
 
 git config --global user.name "Mona Lisa"
