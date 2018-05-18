@@ -13,7 +13,11 @@ ssh-keygen -t rsa -b 4096 -C "your_email@example.com"
 # start the ssh-agent in the background
 eval $(ssh-agent -s)
 ssh-add ~/.ssh/id_rsa
+# Windows:
 clip < ~/.ssh/id_rsa.pub
+# Linux:
+sudo apt-get install xclip
+xclip -sel clip < ~/.ssh/id_rsa.pub
 # Adding a new SSH key to your GitHub account
 https://help.github.com/articles/adding-a-new-ssh-key-to-your-github-account/
 
